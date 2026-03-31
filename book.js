@@ -68,7 +68,7 @@
     }
   );
 
-  var drag=false, px=0, py=0, vy=0.0005, vx=0, ry=0.85, rx=-0.05;
+  var drag=false, px=0, py=0, vy=0.0005, vx=0, ry=0.85, rx=-0.45;
   canvas.addEventListener('mousedown', function(e){drag=true;px=e.clientX;py=e.clientY;});
   window.addEventListener('mousemove', function(e){
     if(!drag)return; vy=(e.clientX-px)*.003; vx=(e.clientY-py)*.003;
